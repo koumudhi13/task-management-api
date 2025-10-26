@@ -17,18 +17,16 @@ It allows users to create, read, update, and delete tasks using HTTP requests.
 
 ## How to Run
 Go to the project folder and run the following commands:
-
-
+```
 cd task-management-api
 npm install
 npm start
-
-
+```
 Then test CRUD routes using Postman or Thunder Client:
 
-
+```
 GET /tasks
 POST /tasks
 PUT /tasks/:id
 DELETE /tasks/:id
-
+```
